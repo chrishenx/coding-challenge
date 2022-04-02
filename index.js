@@ -25,6 +25,7 @@ function runSolutions(sourceCount) {
      * This function will ensure that what you print is in fact in chronological order.
      * Call 'printer.done()' at the end to get a few stats on your solution!
      */
+    // resolve();
     const syncLogSources = [];
     for (let i = 0; i < sourceCount; i++) {
       syncLogSources.push(new LogSource());
@@ -62,4 +63,4 @@ function runSolutions(sourceCount) {
 }
 
 // Adjust this input to see how your solutions perform under various loads.
-runSolutions(100);
+runSolutions(1000);
